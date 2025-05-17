@@ -1,8 +1,7 @@
-import { BrowserRouter as Router, Routes } from "react-router-dom";
-import UserRoutes from "./UserRoutes";
-import AdminRoutes from "./AdminRoutes";
-import AuthRoutes from "./AuthRoutes";
-
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
+import UserRoutes from './UserRoutes';
+import AdminRoutes from './AdminRoutes';
+import AuthRoutes from './AuthRoutes';
 
 const AppRouter = () => {
   return (
@@ -14,6 +13,6 @@ const AppRouter = () => {
       </Routes>
     </Router>
   );
-}
+};
 
 export default AppRouter;
