@@ -4,7 +4,7 @@ import AppRouter from './routes/routes.jsx';
 function App() {
   return (
     <>
-      <AppRouter />
+      <h1>See you at the movies</h1>
     </>
   );
 }
