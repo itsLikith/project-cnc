@@ -1,12 +1,64 @@
-# React + Vite
+# Craft and Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Craft and Commerce is a modern web platform empowering creators to sell their hand-crafted items and enabling buyers to discover unique, artisan products. Built with [Vite](https://vitejs.dev/) and [React](https://react.dev/), this project delivers a fast, scalable, and delightful user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Seller Dashboard:** Seamlessly list, manage, and track your handmade products.
+- **Buyer Marketplace:** Browse, search, and purchase unique crafts from talented creators.
+- **Secure Transactions:** Reliable payment integration for safe buying and selling.
+- **Responsive Design:** Optimized for all devices, ensuring accessibility and usability.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+project-cnc/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Getting Started
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/itsLikith/project-cnc.git
+    cd project-cnc
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4. **Build for production:**
+    ```bash
+    npm run build
+    ```
+
+## Contributing
+
+We welcome contributions! Please open issues or submit pull requests to help improve Craft and Commerce.
+
+## License
+
+
+
+---
+
+Craft and Commerce — Empowering creators. Connecting communities.
