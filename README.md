@@ -31,33 +31,34 @@ project-cnc/
 ## Getting Started
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/itsLikith/project-cnc.git
-    cd project-cnc
-    ```
+
+   ```bash
+   git clone https://github.com/itsLikith/project-cnc.git
+   cd project-cnc
+   ```
 
 2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 4. **Build for production:**
-    ```bash
-    npm run build
-    ```
+   ```bash
+   npm run build
+   ```
 
 ## Contributing
 
 We welcome contributions! Please open issues or submit pull requests to help improve Craft and Commerce.
 
 ## License
-
-
 
 ---
 
