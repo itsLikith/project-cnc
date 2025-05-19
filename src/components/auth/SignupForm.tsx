@@ -11,7 +11,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from '@/components/ui/select';
 
 const SignupForm = () => {
   const navigate = useNavigate();
@@ -135,7 +135,11 @@ const SignupForm = () => {
       {/* Sign in link */}
       <div className="mt-4 text-center text-[1rem]">
         Already having an account?{' '}
-        <Button variant='link' className="text-[#d08c5a] font-semibold" onClick={() => navigate('/auth/login')}>
+        <Button
+          variant="link"
+          className="text-[#d08c5a] font-semibold"
+          onClick={() => navigate('/auth/login')}
+        >
           Sign In
         </Button>
       </div>

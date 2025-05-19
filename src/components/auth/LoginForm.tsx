@@ -101,7 +101,11 @@ const LoginForm = () => {
       {/* Sign up link */}
       <div className="mt-4 text-center text-[1rem]">
         Don’t have an account?{' '}
-        <Button variant='link' className="text-[#d08c5a] font-semibold hover:underline" onClick={() => navigate('/auth/signup')}>
+        <Button
+          variant="link"
+          className="text-[#d08c5a] font-semibold hover:underline"
+          onClick={() => navigate('/auth/signup')}
+        >
           Create an account
         </Button>
       </div>
