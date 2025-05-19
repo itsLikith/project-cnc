@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import './landingpage.css';
 
 import { Button } from '@/components/ui/button.tsx';
 import { SquareArrowOutUpRight } from 'lucide-react';
 
 const LandingPage = () => {
+  const navigate = useNavigate();
   return (
     <div className="landing-page">
       <div className="flex w-full h-full bg-black lg shadow-lg overflow-hidden">
@@ -18,8 +20,11 @@ const LandingPage = () => {
             <Button
               variant="default"
               className="w-full sm:w-auto px-8 py-4 text-base sm:text-lg font-bold"
+              onClick={() => {
+                navigate('/auth/login');
+              }}
             >
-              Explore Now 
+              Explore Now
               <SquareArrowOutUpRight size={22} strokeWidth={3} />
             </Button>
           </div>
