@@ -10,7 +10,13 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/index.html"
+            "dest": "/index.html",
+            "has": [
+                {
+                    "type": "missing",
+                    "value": "/.*\\.(js|css|png|jpg|jpeg|svg|gif|ico|json|txt|woff2?)$"
+                }
+            ]
         }
     ]
 }
