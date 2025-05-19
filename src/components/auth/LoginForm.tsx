@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-import { Input } from '@/components/ui/input.tsx';
-import { Label } from '@/components/ui/label.tsx';
-import { Checkbox } from '@/components/ui/checkbox.tsx';
+import { Input } from '../../components/ui/input.tsx';
+import { Label } from '../../components/ui/label.tsx';
+import { Checkbox } from '../../components/ui/checkbox.tsx';
 import { Button } from '../ui/button';
 
 const LoginForm = () => {

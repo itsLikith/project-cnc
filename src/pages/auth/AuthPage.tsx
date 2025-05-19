@@ -1,6 +1,6 @@
 import './authpage.css';
-import LoginForm from '@/components/auth/LoginForm.tsx';
-import SignupForm from '@/components/auth/SignupForm.tsx';
+import LoginForm from '../../components/auth/LoginForm.tsx';
+import SignupForm from '../../components/auth/SignupForm.tsx';
 
 interface AuthPageProps {
   mode: string;

@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './landingpage.css';
 
-import { Button } from '@/components/ui/button.tsx';
+import { Button } from '../../components/ui/button.tsx';
 import { SquareArrowOutUpRight } from 'lucide-react';
 
 const LandingPage = () => {

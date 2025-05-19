@@ -1,6 +1,6 @@
 import type { JSX } from 'react';
-import LandingPage from '@/pages/landing/LandingPage.tsx';
-import AuthPage from '@/pages/auth/AuthPage';
+import LandingPage from '../../pages/landing/LandingPage.tsx';
+import AuthPage from '../../pages/auth/AuthPage';
 import { Route } from 'react-router-dom';
 
 const CommonRoutes: JSX.Element[] = [
