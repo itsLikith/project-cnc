@@ -1,7 +1,7 @@
 import './landingpage.css';
 
 import { Button } from '@/components/ui/button.tsx';
-import { Bold, SquareArrowOutUpRight } from 'lucide-react';
+import { SquareArrowOutUpRight } from 'lucide-react';
 
 const LandingPage = () => {
   return (
