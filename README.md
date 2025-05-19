@@ -1,54 +1,65 @@
-# React + TypeScript + Vite
+# Craft and Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Craft and Commerce is a modern web platform empowering creators to sell their hand-crafted items and enabling buyers to discover unique, artisan products. Built with [Vite](https://vitejs.dev/) and [React](https://react.dev/), this project delivers a fast, scalable, and delightful user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- *Seller Dashboard:* Seamlessly list, manage, and track your handmade products.
+- *Buyer Marketplace:* Browse, search, and purchase unique crafts from talented creators.
+- *Secure Transactions:* Reliable payment integration for safe buying and selling.
+- *Responsive Design:* Optimized for all devices, ensuring accessibility and usability.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+project-cnc/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+## Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+1. *Clone the repository:*
+
+   bash
+   git clone https://github.com/itsLikith/project-cnc.git
+   cd project-cnc
+   
+
+2. *Install dependencies:*
+
+   bash
+   npm install
+   
+
+3. *Run the development server:*
+
+   bash
+   npm run dev
+   
+
+4. *Build for production:*
+   bash
+   npm run build
+   
+
+## Contributing
+
+We welcome contributions! Please open issues or submit pull requests to help improve Craft and Commerce.
+
+## License
+
+---
+
+Craft and Commerce — Empowering creators. Connecting communities.
