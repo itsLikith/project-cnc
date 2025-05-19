@@ -1,0 +1,30 @@
+# Build output
+dist
+build
+
+# Node modules
+node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.vscode
+.idea
+
+# Misc
+coverage
+*.tsbuildinfo
+.DS_Store
+
+# Public folder (optional, if you don't want to format static assets)
+public/*
+!public/*.js
+!public/*.ts
