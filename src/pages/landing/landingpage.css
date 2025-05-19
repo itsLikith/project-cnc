@@ -1,0 +1,7 @@
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #f0f0f0;
+}
