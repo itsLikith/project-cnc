@@ -16,7 +16,7 @@ import {
 const SignupForm = () => {
   const navigate = useNavigate();
   return (
-    <div className="w-full max-w-sm mx-auto font-['Quicksand',_cursive]">
+    <div className="w-full max-w-sm mx-auto ">
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl font-bold text-[#d08c5a] text-center mb-1 mt-2">
         Create your Account
@@ -133,7 +133,7 @@ const SignupForm = () => {
         </span>
       </Button>
       {/* Sign in link */}
-      <div className="mt-4 text-center text-[1rem]">
+      <div className="mt-4 text-center text-[1rem] mb-10">
         Already having an account?{' '}
         <Button
           variant="link"

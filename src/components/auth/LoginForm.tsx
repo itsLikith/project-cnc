@@ -9,7 +9,7 @@ import { Button } from '../ui/button';
 const LoginForm = () => {
   const navigate = useNavigate();
   return (
-    <div className="w-full max-w-sm mx-auto font-['Quicksand',_cursive]">
+    <div className="w-full max-w-sm mx-auto ">
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl font-semibold text-[#d08c5a] text-center mb-1">
         Welcome Back
@@ -99,7 +99,7 @@ const LoginForm = () => {
         </span>
       </Button>
       {/* Sign up link */}
-      <div className="mt-4 text-center text-[1rem]">
+      <div className="mt-4 text-center text-[1rem] mb-10">
         Don’t have an account?{' '}
         <Button
           variant="link"
