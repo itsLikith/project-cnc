@@ -52,8 +52,6 @@ const SignupForm = () => {
               <SelectGroup>
                 <SelectLabel>Country Code</SelectLabel>
                 <SelectItem value="+91">+91</SelectItem>
-                <SelectItem value="+1">+1</SelectItem>
-                <SelectItem value="+44">+44</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
