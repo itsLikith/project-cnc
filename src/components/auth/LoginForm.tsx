@@ -52,7 +52,7 @@ const LoginForm = () => {
             Remember me
           </label>
         </div>
-        <Link to="" className="text-[1rem] text-gray-800 hover:underline font-semibold">
+        <Link to="/auth/forgotpassword" className="text-[1rem] text-gray-800 hover:underline font-semibold">
           Forgot Password?
         </Link>
       </div>

@@ -1,6 +1,7 @@
 import './authpage.css';
 import LoginForm from '../../components/auth/LoginForm.tsx';
 import SignupForm from '../../components/auth/SignupForm.tsx';
+import ForgotPasswordForm from '../../components/auth/ForgotPasswordForm.tsx';
 
 interface AuthPageProps {
   mode: string;
@@ -25,7 +26,13 @@ const AuthPage = (props: AuthPageProps) => {
               className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain"
             />
           </div>
-          {props.mode === 'login' ? <LoginForm /> : props.mode === 'signup' ? <SignupForm /> : null}
+          {props.mode === 'login' ? (
+            <LoginForm />
+          ) : props.mode === 'signup' ? (
+            <SignupForm />
+          ) : props.mode === 'forgotpassword' ? (
+            <ForgotPasswordForm />
+          ) : null}
         </div>
       </div>
     </div>

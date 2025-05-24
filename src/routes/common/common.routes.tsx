@@ -7,6 +7,7 @@ const CommonRoutes: JSX.Element[] = [
   <Route path="/" element={<LandingPage />} />,
   <Route path="/auth/login" element={<AuthPage mode="login" />} />,
   <Route path="/auth/signup" element={<AuthPage mode="signup" />} />,
+  <Route path="/auth/forgotpassword" element={<AuthPage mode="forgotpassword" />} />,
 ];
 
 export default CommonRoutes;
