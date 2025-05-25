@@ -9,26 +9,6 @@ Craft and Commerce is a modern web platform empowering creators to sell their ha
 - **Secure Transactions:** Reliable payment integration for safe buying and selling.
 - **Responsive Design:** Optimized for all devices, ensuring accessibility and usability.
 
-## Project Structure
-
-```
-project-cnc/
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── utils/
-│   ├── App.tsx
-│   └── main.tsx
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-├── eslint.config.ts
-└── README.md
-```
 
 ## Getting Started
 
@@ -62,8 +42,3 @@ We welcome contributions! Please open issues or submit pull requests to help imp
 
 ## License
 
-MIT
-
----
-
-Craft and Commerce — Empowering creators. Connecting communities.
