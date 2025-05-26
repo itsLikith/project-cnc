@@ -9,7 +9,6 @@ Craft and Commerce is a modern web platform empowering creators to sell their ha
 - **Secure Transactions:** Reliable payment integration for safe buying and selling.
 - **Responsive Design:** Optimized for all devices, ensuring accessibility and usability.
 
-
 ## Getting Started
 
 1. **Clone the repository:**
@@ -41,4 +40,3 @@ Craft and Commerce is a modern web platform empowering creators to sell their ha
 We welcome contributions! Please open issues or submit pull requests to help improve Craft and Commerce.
 
 ## License
-
