@@ -75,13 +75,13 @@ const ForgotPasswordForm = () => {
           Change Password
         </Button>
 
-        <div className="text-center mt-4 mb-10">
+        <div className="mt-4 text-center text-[1rem] mb-10">
           <Button
             variant="link"
-            className="text-[#d08c5a] font-semibold flex items-center justify-center gap-2"
-            onClick={() => navigate('/auth/login')}
-          >
-            Back to Login <Undo2 size={18} />
+            className="text-[#d08c5a] font-semibold"
+            onClick={() => navigate('/auth/login')}>
+            Back to Login
+            <Undo2 />
           </Button>
         </div>
       </div>
