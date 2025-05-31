@@ -11,6 +11,20 @@ function InputOTP({
 }: React.ComponentProps<typeof OTPInput> & {
   containerClassName?: string;
 }) {
+  // Handler to allow only number keys
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    // Allow navigation keys, backspace, delete, tab, etc.
+    if (
+      ['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)
+    ) {
+      return;
+    }
+    // Block if not a number
+    if (!/^\d$/.test(e.key)) {
+      e.preventDefault();
+    }
+  };
+
   return (
     <OTPInput
       data-slot="input-otp"
@@ -18,6 +32,7 @@ function InputOTP({
       className={cn('disabled:cursor-not-allowed', className)}
       inputMode="numeric"
       pattern="\d*"
+      onKeyDown={handleKeyDown}
       {...props}
     />
   );
@@ -52,7 +67,10 @@ function InputOTPSlot({
       {char}
       {hasFakeCaret && (
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-          <div className="animate-caret-blink bg-foreground h-4 w-px duration-1000" />
+          <div
+            className="animate-caret-blink bg-[#d08c5a] h-6 w-[2px] rounded"
+            style={{ minHeight: '1.5rem' }}
+          />
         </div>
       )}
     </div>
