@@ -14,9 +14,7 @@ function InputOTP({
   // Handler to allow only number keys
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     // Allow navigation keys, backspace, delete, tab, etc.
-    if (
-      ['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)
-    ) {
+    if (['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) {
       return;
     }
     // Block if not a number
